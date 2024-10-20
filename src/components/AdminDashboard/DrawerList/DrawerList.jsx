@@ -78,7 +78,7 @@ const DrawerList = () => {
       <Divider />
       <Avatar
         alt="user profile image"
-        src="https://www.pngkey.com/png/full/114-1149878_setting-user-avatar-in-specific-size-without-breaking.png"
+        src="https://cdn-icons-png.flaticon.com/512/3251/3251650.png"
         sx={{ m: 2, width: 100, height: 100, mx: "auto" }}
       />
       <Box sx={{ width: "100%", textAlign: "center" }}>

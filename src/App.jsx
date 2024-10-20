@@ -1,6 +1,6 @@
 import "./App.css";
 import "keen-slider/keen-slider.min.css";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import LoginPage from "./pages/LoginPage";
 import HomePage from "./pages/HomePage";
 import { useEffect } from "react";
@@ -30,7 +30,7 @@ function App() {
 
   return (
     <>
-      <BrowserRouter>
+      <HashRouter>
         <ConfirmationModal />
         <GlobalSnackbar />
         <Routes>
@@ -58,7 +58,7 @@ function App() {
             <Route path="create-brand" element={<CreateBrand />} />
           </Route>
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </>
   );
 }
