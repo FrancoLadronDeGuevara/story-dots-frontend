@@ -2,7 +2,7 @@ import axios from 'axios';
 import Cookies from 'js-cookie';
 
 const clientAxios = axios.create({
-    baseURL: "http://localhost:4000/api",
+    baseURL: "https://story-dots-backend.vercel.app/api",
     headers: {
         'Content-Type': 'application/json',
     },
